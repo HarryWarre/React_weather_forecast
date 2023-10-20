@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import moment from "moment";
 import SetDataCurrentWeather from "../function/setDataCurrentWeather";
-import fetchWeatherData from "../function/getDataCurrentWeather";
+import fetchWeatherData from "../function/fetchDataCurrentWeather";
 function CurrentWeather() {
   const [weather, setWeather] = useState(null);
 
